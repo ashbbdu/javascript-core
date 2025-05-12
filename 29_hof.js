@@ -51,10 +51,12 @@ let myObj = {
 // }
 
 
+// to loop over the Objects we can use for in loop
+
 const obj = {
     js : "Javascript",
     cpp : "C++",
-    rb : "ruby",
+    rb : "Ruby",
     jv : "Java",
     sw : "Swift"
 }
@@ -64,3 +66,30 @@ for (const key in obj) {
     console.log(key , " : " ,obj[key]);  
 }
 
+
+
+let programming = ["Javascript" , "C++" , "Ruby", "Java" , "Swift"];
+
+
+for (const key in programming) {
+    console.log(programming.at(key));
+    console.log(programming[key]);
+}
+
+
+
+// for each
+
+console.log("------------------------------");
+
+let programmingLanguages = ["Javascript" , "C++" , "Ruby", "Java" , "Swift"];
+let newArr = []
+
+
+programmingLanguages.forEach(res => newArr.push(res));
+console.log(newArr , "newArr");
+
+
+
+// const crr = programming.map(res => res);
+// console.log(crr , "crr");
