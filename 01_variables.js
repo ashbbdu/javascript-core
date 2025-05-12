@@ -9,3 +9,5 @@ let d = {firstName : "Ashish" , lastName : "Srivastava"}
 let e ;
 
 console.table([a , b ,c ,d ,e])
+
+
